@@ -1,7 +1,7 @@
 Overview : This program is designed to predict audience of Nut Job2 and Nam Han San Sung(³²ÇÑ»ê¼º, It's a korean movie) at 8days after opening. 
 At first this program collects movie data(name of director and actors, movie code(used as primary key), movie name, name of movie distributor, movie scores and audience at 8days after opening. 
 And then find correlation between movie data and audience so that learns with Deep Neural Network making weight matrix.
-Now we can predict audience of Nut Job2 and Nam Han San Sung by using learned network. This program was created by modifying the following open source(MIT licensed) programs.
+Now we can predict audience of Nut Job2 and Nam Han San Sung by using learned network. When I made this program in part of getting data from the Korean Film Council API, I took a look at the following open source (MIT licensed).
 References : https://github.com/cyh132/movie
 
 

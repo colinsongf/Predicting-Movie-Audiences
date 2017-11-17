@@ -59,14 +59,7 @@ print("evaluate_df.shape = ", evaluate_df.shape)
 print("test_df.shape =  (1, 17)")
 
 features = train_df.columns
-#categorical_features = features['movieNm_x','director','repNationNm', 'repGenreNm', 'watchGradeNm', 'actor_1', 'actor_2', 'actor_3', 'companyNm']
-#categorical_features = features[1]+features[2]
-#continuous_features = features['openDt', 'prdtYear', 'showTm', 'preview_audience', 'star_score', 'star_user_count']
-#continuous_features = features['openDt', 'prdtYear', 'showTm', 'preview_audience', 'star_score', 'star_user_count']
-#print(categorical_features)
 
-#categorical_features = [feature for feature in features if 'movieNm_x'or'director'or'repNationNm'or'repGenreNm'or'watchGradeNm'or'actor_1'or'actor_2'or'actor_3'or'companyNm' in feature]
-#categorical_features = [feature for feature in features if 'movieNm_x' in feature]
 
 #categorical_features = ['movieNm_x', 'director', 'repNationNm', 'repGenreNm', 'watchGradeNm', 'actor_1', 'actor_2', 'actor_3', 'companyNm']
 categorical_features = [feature for feature in features if 'cat' in feature]

@@ -17,6 +17,5 @@ movie2.py : It gets movie star score(netizen evaluated and gave scores on movies
 
 DNN.py : Using collected data(total_movie.csv and star_score.csv), it fits the neural network and predict audience. Note that there are not only continuous features but also categorical features. We treat them differently.
 
-Reference:
-GitHub of cyh132 from "https://github.com/cyh132/movie"
+Made by Seo Hoon, Kyung Hee Univ(contact : hhoon0001@naver.com)
 
